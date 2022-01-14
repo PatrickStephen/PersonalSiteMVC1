@@ -1,0 +1,202 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="common_style">
+    <!-- about section -->
+    <section class="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about_img-container">
+
+                        <img src="~/Content/images/KPWedEditHRC1-0182 (2).jpg" />
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about_detail-box">
+                        <h3>
+                            About Me
+                        </h3>
+                        <p>
+                            A brief description about myself.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end about section -->
+    <!-- admission section -->
+    <section class="admission_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="admission_detail-box">
+                        <h3>
+                            My Resume
+                        </h3>
+                        <p>
+                            A glims into my past work/ education experiences that I have recieved so far!
+                        </p>
+                        <div class="">
+                            <a href="@Url.Action("Resume","Home")" class="call_to-btn btn_white-border">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="admission_img-container">
+                        <img src="~/Content/images/admission.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end admission section -->
+    <!-- why section -->
+    <section class="why_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="why_img-container">
+                        <img src="~/Content/images/projects.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="why_detail-box">
+                        <h3>
+                            My Projects
+                        </h3>
+                        <p>
+                            Projects that I have accomplished since the beginning of my new career began as a Full Stack Web Developer!
+                        </p>
+                        <div class="">
+                            <a href="@Url.Action("Project","Home")" class="call_to-btn btn_white-border">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end why section -->
+    <!-- determine section -->
+    <section class="determine_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="determine_detail-box">
+                        <h3>
+                            Links to contact my classmates and check out their projects
+                        </h3>
+                        <p>
+                            Links to my classmates personal sites that will give insite into them and their projects!
+                        </p>
+                        <div class="">
+                            <a href="@Url.Action("Links","Home")" class="call_to-btn btn_white-border">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="determine_img-container">
+                        <img src="~/Content/images/links.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end determine section -->
+</div>
+
+<!-- client section -->
+<section class="client_section layout_padding">
+    <h2 class="">
+        Testimonial
+    </h2>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="client_img-box">
+                                <img src="~/Content/images/client.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="client_detail-box">
+                                <h5>
+                                    Classmate 1's Input
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="client_img-box">
+                                <img src="~/Content/images/client.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="client_detail-box">
+                                <h5>
+                                    Classmate 2's Input
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="client_img-box">
+                                <img src="~/Content/images/client.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="client_detail-box">
+                                <h5>
+                                    Classmate 3's Input
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
